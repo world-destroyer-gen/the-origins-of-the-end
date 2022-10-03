@@ -725,7 +725,7 @@ class MakeClanScreen(Screens):
                             text='Reset Name',
                             naming_text='',
                             hotkey=[2])
-
+        game.switches['naming_text'] = "STARS"
         # buttons
         verdana_small.text(
             'Note: going back to main menu resets the generated cats.',
